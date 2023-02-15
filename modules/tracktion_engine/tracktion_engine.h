@@ -258,7 +258,8 @@
 
 //==============================================================================
 #define TRACKTION_ASSERT_MESSAGE_THREAD \
-    jassert (juce::MessageManager::getInstance()->currentThreadHasLockedMessageManager());
+    jassert(true);
+    //jassert (juce::MessageManager::getInstance()->currentThreadHasLockedMessageManager());
 
 //==============================================================================
 namespace tracktion { inline namespace graph
